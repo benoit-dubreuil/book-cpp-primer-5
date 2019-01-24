@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{3F9B2846-5225-462C-92B4-5FE0FD320F8E}</ProjectGuid>
-    <RootNamespace>UnsignedSignedOperations</RootNamespace>
+    <ProjectGuid>{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}</ProjectGuid>
+    <RootNamespace>Exercise218PointerBasicUSse</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>Exercise-2.4-UnsignedSignedOperations</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
