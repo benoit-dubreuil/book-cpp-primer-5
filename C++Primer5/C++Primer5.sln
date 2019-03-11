@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-2.4-UnsignedSignedOperations", "UnsignedSignedOperations\UnsignedSignedOperations.vcxproj", "{3F9B2846-5225-462C-92B4-5FE0FD320F8E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-2.18-PointerBasicUSse", "Exercise-2.18-PointerBasicUSse\Exercise-2.18-PointerBasicUSse.vcxproj", "{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-2.39-StructNoSemicolon", "Exercise-2.39-StructNoSemicolon\Exercise-2.39-StructNoSemicolon.vcxproj", "{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}"
@@ -19,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.4-StringCompareL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.5-StringConcatenation", "Exercise-3.5-StringConcatenation\Exercise-3.5-StringConcatenation.vcxproj", "{6A1201E7-7C67-456B-BB1E-3D223C75D789}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-2.4-UnsignedSignedOperations", "Exercise-2.4-UnsignedSignedOperations\UnsignedSignedOperations.vcxproj", "{3F9B2846-5225-462C-92B4-5FE0FD320F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,14 +27,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x64.ActiveCfg = Debug|x64
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x64.Build.0 = Debug|x64
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x86.ActiveCfg = Debug|Win32
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x86.Build.0 = Debug|Win32
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x64.ActiveCfg = Release|x64
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x64.Build.0 = Release|x64
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x86.ActiveCfg = Release|Win32
-		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x86.Build.0 = Release|Win32
 		{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}.Debug|x64.ActiveCfg = Debug|x64
 		{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}.Debug|x64.Build.0 = Debug|x64
 		{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}.Debug|x86.ActiveCfg = Debug|Win32
@@ -91,6 +83,14 @@ Global
 		{6A1201E7-7C67-456B-BB1E-3D223C75D789}.Release|x64.Build.0 = Release|x64
 		{6A1201E7-7C67-456B-BB1E-3D223C75D789}.Release|x86.ActiveCfg = Release|Win32
 		{6A1201E7-7C67-456B-BB1E-3D223C75D789}.Release|x86.Build.0 = Release|Win32
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x64.ActiveCfg = Debug|x64
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x64.Build.0 = Debug|x64
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Debug|x86.Build.0 = Debug|Win32
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x64.ActiveCfg = Release|x64
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x64.Build.0 = Release|x64
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x86.ActiveCfg = Release|Win32
+		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
