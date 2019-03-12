@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.5-StringConcaten
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-2.4-UnsignedSignedOperations", "Exercise-2.4-UnsignedSignedOperations\UnsignedSignedOperations.vcxproj", "{3F9B2846-5225-462C-92B4-5FE0FD320F8E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.8-StringLoopCharAffectation", "Exercise-3.8-StringLoopCharAffectation\Exercise-3.8-StringLoopCharAffectation.vcxproj", "{3B2879E2-61D0-46E0-8938-C67BA4D50D31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x64.Build.0 = Release|x64
 		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x86.ActiveCfg = Release|Win32
 		{3F9B2846-5225-462C-92B4-5FE0FD320F8E}.Release|x86.Build.0 = Release|Win32
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Debug|x64.ActiveCfg = Debug|x64
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Debug|x64.Build.0 = Debug|x64
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Debug|x86.ActiveCfg = Debug|Win32
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Debug|x86.Build.0 = Debug|Win32
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Release|x64.ActiveCfg = Release|x64
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Release|x64.Build.0 = Release|x64
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Release|x86.ActiveCfg = Release|Win32
+		{3B2879E2-61D0-46E0-8938-C67BA4D50D31}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
