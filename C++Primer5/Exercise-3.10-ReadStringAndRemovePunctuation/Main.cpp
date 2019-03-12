@@ -4,7 +4,7 @@
 
 int main()
 {
-	// Read from input, then output what was read but without the punctuation
+	// Read from the input, then output what was read but without the punctuation
 
 	std::string input;
 	std::cin >> input;
