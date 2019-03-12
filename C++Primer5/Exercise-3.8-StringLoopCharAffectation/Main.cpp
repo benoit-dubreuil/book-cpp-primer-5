@@ -55,9 +55,5 @@ int main()
 
 	std::cout << textCopy << std::endl;
 
-
-	const std::string s = "Keep out!";
-	for (auto &c : s) { /* ... */ }
-
 	return 0;
 }
