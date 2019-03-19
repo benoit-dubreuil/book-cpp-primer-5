@@ -8,7 +8,7 @@ int main()
 	// The reason why it is necessary to remove references is because the * operator on an array is equivalent to &array[0].
 	for (std::size_t i = 0; i < (sizeof(values) / sizeof(std::remove_reference<decltype(*values)>::type)); ++i)
 	{
-		values[i] = i;
+		values[i] = static_cast<int>(i);
 	}
 
 	int valuesCopy[sizeof(values) / sizeof(*values)];
