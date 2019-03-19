@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.23-IteratorLoop"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.32-ArrayInitAndCopy", "Exercise-3.32-ArrayInitAndCopy\Exercise-3.32-ArrayInitAndCopy.vcxproj", "{B4CA2BBF-03D7-4FA5-A456-F4A1A1AA0223}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.35-ArrayPointerIndexing", "Exercise-3.35-ArrayPointerIndexing\Exercise-3.35-ArrayPointerIndexing.vcxproj", "{4177A20D-93F9-40FB-A1D0-11C6552156A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{B4CA2BBF-03D7-4FA5-A456-F4A1A1AA0223}.Release|x64.Build.0 = Release|x64
 		{B4CA2BBF-03D7-4FA5-A456-F4A1A1AA0223}.Release|x86.ActiveCfg = Release|Win32
 		{B4CA2BBF-03D7-4FA5-A456-F4A1A1AA0223}.Release|x86.Build.0 = Release|Win32
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Debug|x64.ActiveCfg = Debug|x64
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Debug|x64.Build.0 = Debug|x64
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Debug|x86.Build.0 = Debug|Win32
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Release|x64.ActiveCfg = Release|x64
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Release|x64.Build.0 = Release|x64
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Release|x86.ActiveCfg = Release|Win32
+		{4177A20D-93F9-40FB-A1D0-11C6552156A9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
