@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-2.18-PointerBasicUSse", "Exercise-2.18-PointerBasicUSse\Exercise-2.18-PointerBasicUSse.vcxproj", "{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-2.39-StructNoSemicolon", "Exercise-2.39-StructNoSemicolon\Exercise-2.39-StructNoSemicolon.vcxproj", "{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.2-ReadLine", "Exercise-3.2-ReadLine\Exercise-3.2-ReadLine.vcxproj", "{2CC3909B-6EAE-419D-9ADA-2B1102061604}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise-3.2-ReadWord", "Exercise-3.2-ReadWord\Exercise-3.2-ReadWord.vcxproj", "{0EBAFE5B-24DC-4A41-94E9-DA8F6589FCF3}"
@@ -47,14 +45,6 @@ Global
 		{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}.Release|x64.Build.0 = Release|x64
 		{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}.Release|x86.ActiveCfg = Release|Win32
 		{6B4B32CC-295F-44FC-B310-DD9BC226E1D4}.Release|x86.Build.0 = Release|Win32
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Debug|x64.ActiveCfg = Debug|x64
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Debug|x64.Build.0 = Debug|x64
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Debug|x86.ActiveCfg = Debug|Win32
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Debug|x86.Build.0 = Debug|Win32
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Release|x64.ActiveCfg = Release|x64
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Release|x64.Build.0 = Release|x64
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Release|x86.ActiveCfg = Release|Win32
-		{FEADE0A4-3842-40C3-B3FF-6F0BF9A92BCE}.Release|x86.Build.0 = Release|Win32
 		{2CC3909B-6EAE-419D-9ADA-2B1102061604}.Debug|x64.ActiveCfg = Debug|x64
 		{2CC3909B-6EAE-419D-9ADA-2B1102061604}.Debug|x64.Build.0 = Debug|x64
 		{2CC3909B-6EAE-419D-9ADA-2B1102061604}.Debug|x86.ActiveCfg = Debug|Win32
