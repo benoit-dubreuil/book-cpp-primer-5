@@ -57,7 +57,7 @@ int main()
 	std::cout << std::endl;
 
 	// Pointer for (iterator) - 2 dimensions
-	for (int const (*xElement)[ySize] = std::cbegin(ia); xElement != std::cend(ia); ++xElement)
+	for (int const (* xElement)[ySize] = std::cbegin(ia); xElement != std::cend(ia); ++xElement)
 	{
 		for (int const * yElement = std::cbegin(*xElement); yElement != std::cend(*xElement); ++yElement)
 		{
@@ -70,7 +70,7 @@ int main()
 	std::cout << std::endl;
 
 	// Pointer for (iterator) - 1 dimension. *ia works as a pointer because arrays are implicitly pointers.
-	for (int const (*element) = *ia; element != (*ia) + totalSize; ++element)
+	for (int const (* element) = *ia; element != (*ia) + totalSize; ++element)
 	{
 		std::cout << *element << ' ';
 
