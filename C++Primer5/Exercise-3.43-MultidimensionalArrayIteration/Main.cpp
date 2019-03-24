@@ -43,8 +43,8 @@ int main()
 	// Subscript for - 1 dimension
 	for (std::size_t i = 0; i < totalSize; ++i)
 	{
-		std::size_t x = i / ySize;
-		std::size_t y = i % ySize;
+		std::size_t const x = i / ySize;
+		std::size_t const y = i % ySize;
 
 		std::cout << ia[x][y] << ' ';
 
@@ -56,7 +56,7 @@ int main()
 
 	std::cout << std::endl;
 
-	// Pointer for (iterator)
+	// Pointer for (iterator) - 2 dimensions
 	for (int const (*xElement)[ySize] = std::cbegin(ia); xElement != std::cend(ia); ++xElement)
 	{
 		for (int const * yElement = std::cbegin(*xElement); yElement != std::cend(*xElement); ++yElement)
@@ -65,6 +65,20 @@ int main()
 		}
 
 		std::cout << std::endl;
+	}
+
+	std::cout << std::endl;
+
+	// Pointer for (iterator) - 1 dimension. *ia works as a pointer because arrays are implicitly pointers.
+	for (int const (*element) = *ia; element != (*ia) + totalSize; ++element)
+	{
+		std::cout << *element << ' ';
+
+		std::ptrdiff_t const y = (element - (*ia)) % ySize;
+		if (y == ySize - 1)
+		{
+			std::cout << std::endl;
+		}
 	}
 
 	return 0;
