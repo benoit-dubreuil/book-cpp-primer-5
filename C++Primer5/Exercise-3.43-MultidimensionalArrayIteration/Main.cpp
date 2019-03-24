@@ -57,11 +57,11 @@ int main()
 	std::cout << std::endl;
 
 	// Pointer for (iterator) - 2 dimensions
-	for (int const (* xElement)[ySize] = std::cbegin(ia); xElement != std::cend(ia); ++xElement)
+	for (int const (* xIt)[ySize] = std::cbegin(ia); xIt != std::cend(ia); ++xIt)
 	{
-		for (int const * yElement = std::cbegin(*xElement); yElement != std::cend(*xElement); ++yElement)
+		for (int const * yIt = std::cbegin(*xIt); yIt != std::cend(*xIt); ++yIt)
 		{
-			std::cout << *yElement << ' ';
+			std::cout << *yIt << ' ';
 		}
 
 		std::cout << std::endl;
@@ -70,11 +70,11 @@ int main()
 	std::cout << std::endl;
 
 	// Pointer for (iterator) - 1 dimension. *ia works as a pointer because arrays are implicitly pointers.
-	for (int const (* element) = *ia; element != (*ia) + totalSize; ++element)
+	for (int const (* it) = *ia; it != (*ia) + totalSize; ++it)
 	{
-		std::cout << *element << ' ';
+		std::cout << *it << ' ';
 
-		std::ptrdiff_t const y = (element - (*ia)) % ySize;
+		std::ptrdiff_t const y = (it - (*ia)) % ySize;
 		if (y == ySize - 1)
 		{
 			std::cout << std::endl;
