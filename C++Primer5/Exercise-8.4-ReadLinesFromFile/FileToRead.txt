@@ -1,0 +1,4 @@
+This is the first line from a file.
+This is the second line from a file.
+This is the third line from a file.
+This is the last line from a file.
