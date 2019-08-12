@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Testing template class partial specialization and template function specialization
+// Testing Class template partial specialization and function template specialization
 
 template <typename T>
 struct GeneralClass
@@ -17,7 +17,7 @@ struct GeneralClass
 	}
 };
 
-// Template class partial specialization
+// Class template partial specialization
 template <>
 struct GeneralClass<double>
 {
@@ -33,14 +33,14 @@ struct GeneralClass<double>
 	}
 };
 
-// Template class specific partial specialization
+// Class template specific partial specialization
 template <>
 void GeneralClass<int>::foo()
 {
 	std::cout << "GeneralClass<int>, GeneralClass<int>::foo()" << std::endl;
 }
 
-// Template class specific partial specialization
+// Class template specific partial specialization
 template <>
 template <typename E>
 void GeneralClass<int>::bar()
@@ -48,7 +48,7 @@ void GeneralClass<int>::bar()
 	std::cout << "GeneralClass<int>, GeneralClass<int>::bar<E>()" << std::endl;
 }
 
-// Template class specific partial specialization and template function specialization
+// Class template specific partial specialization and function template specialization
 template <>
 template <>
 void GeneralClass<int>::bar<int>()
