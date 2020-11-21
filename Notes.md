@@ -28,11 +28,11 @@ Order of operand evaluation is independent of precedence and associativity. In a
 - In C++, names have scope, and objects have lifetimes.
 - If a local static has no explicit initializer, it is value initialized, meaning that local statics of built-in type are initialized to zero.
 - ```
-// each function has a single parameter of type const int*
-void print(const int*);
-void print(const int[]); // shows the intent that the function takes an array
-void print(const int[10]); // dimension for documentation purposes (at best)
-```
+  // each function has a single parameter of type const int*
+  void print(const int*);
+  void print(const int[]); // shows the intent that the function takes an array
+  void print(const int[10]); // dimension for documentation purposes (at best)
+  ```
 - Ellipsis parameters are in C++ to allow programs to interface to C code that uses a C library facility named `varargs`. Generally an ellipsis parameter should not be used for other purposes.
 - Calls to functions that return references are lvalues; other return types yield rvalues.
 - Only use the `explict` keyword on constructors with only one parameter (unary constructors).
