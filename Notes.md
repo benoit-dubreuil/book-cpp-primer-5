@@ -1,4 +1,4 @@
-À retenir :
+# Notes
 
 - Une référence n'est pas un objet, c'est un alias, contrairement à un pointeur, d'où le fait qu'on ne peut pas changer l'objet pointé par celle-ci. De toute façon, ça rendrait impossible la fonctionnalité d'alias. Parce qu'une référence n'est pas un objet, elle n'a donc pas d'adresse, d'où le fait qu'on ne peut pas assigner à un pointeur l'adresse d'une référence.
 - Utiliser un pointeur non-défini dans un condition résulte en une undefined behavior.
